@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MainSuite]">
+  <test name="testsuite-1(failed)">
+    <classes>
+      <class name="com.chefd.SanityCases">
+        <methods>
+          <include name="add_Receipe_To_cart_from_AllMeals"/>
+          <include name="log_in"/>
+          <include name="regular_Checkout"/>
+          <include name="launch_chefd"/>
+          <include name="launch_chefd"/>
+        </methods>
+      </class> <!-- com.chefd.SanityCases -->
+    </classes>
+  </test> <!-- testsuite-1(failed) -->
+  <test name="testsuite-2(failed)">
+    <classes>
+      <class name="com.chefd.SanityCases">
+        <methods>
+          <include name="launch_chefd"/>
+          <include name="launch_chefd"/>
+          <include name="physical_Gifts_Card"/>
+        </methods>
+      </class> <!-- com.chefd.SanityCases -->
+    </classes>
+  </test> <!-- testsuite-2(failed) -->
+</suite> <!-- Failed suite [MainSuite] -->
